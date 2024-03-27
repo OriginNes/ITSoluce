@@ -34,7 +34,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#075985] text-base sm:text-lg mb-6 lg:text-xl">
               IT Soluce, votre professionnel local en solutions informatiques et bureautiques.
           </p>
           <div>

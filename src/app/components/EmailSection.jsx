@@ -49,7 +49,7 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-primary-500 my-2">
           Nous suivre
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-[#075985] mb-4 max-w-md">
           {" "}
           Rejoignez IT Soluce sur les réseaux sociaux pour ne rien manquer de nos actualités, conseils et astuces informatiques. Ensemble, restons connectés !
         </p>
