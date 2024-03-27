@@ -38,7 +38,7 @@ const AboutSection = () => {
 
     return (
         <section className="text-white" id="about">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-32 xl:px-16">
+            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <div
                     className="rounded-full bg-[#e0d9e0] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative border-dark">
                     <Image
