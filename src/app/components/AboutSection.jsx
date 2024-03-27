@@ -43,7 +43,7 @@ const AboutSection = () => {
                     className="rounded-full bg-[#e0d9e0] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative border-dark">
                     <Image
                         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        src="/images/computertest.png" width={350} height={350}/>
+                        src="/images/computertest.png" width={350} height={350} alt="Image d'un avatr sur un ordinateur"/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl text-primary-500 mb-2">A propos</h2>
