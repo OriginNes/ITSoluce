@@ -8,16 +8,16 @@ const ProjectDescriptions = {
                 <span className="font-semibold">Mises à jour et correctifs :</span> Installation régulière de mises à jour logicielles, correctifs de sécurité et mises à jour système pour garantir que les systèmes sont à jour et protégés contre les failles de sécurité.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Optimisation des performances :</span> Optimiser les réglages du système pour maximiser les performances de l'ordinateur.
+                <span className="font-semibold">Optimisation des performances :</span> Optimiser les réglages du système pour maximiser les performances de l&apos;ordinateur.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Gestion des actifs informatiques :</span> Suivi et gestion des actifs matériels et logiciels, y compris l'inventaire, la mise à jour et la gestion des licences logicielles.
+                <span className="font-semibold">Gestion des actifs informatiques :</span> Suivi et gestion des actifs matériels et logiciels, y compris l&apos;inventaire, la mise à jour et la gestion des licences logicielles.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Support technique :</span> Fourniture d'une assistance technique aux utilisateurs finaux.
+                <span className="font-semibold">Support technique :</span> Fourniture d&apos;une assistance technique aux utilisateurs finaux.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Gestion des utilisateurs et des droits d'accès :</span> Configuration et gestion des comptes utilisateurs, des autorisations et des politiques de sécurité pour garantir que seules les personnes autorisées ont accès aux systèmes et aux données sensibles.
+                <span className="font-semibold">Gestion des utilisateurs et des droits d&apos;accès :</span> Configuration et gestion des comptes utilisateurs, des autorisations et des politiques de sécurité pour garantir que seules les personnes autorisées ont accès aux systèmes et aux données sensibles.
             </p>
         </div>
     ),
@@ -33,7 +33,7 @@ const ProjectDescriptions = {
                 <span className="font-semibold">Suppression de virus et de logiciels malveillants : </span> Élimination des logiciels malveillants, des virus et des programmes indésirables.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Récupération de données :</span> Récupération de données perdues ou corrompues à partir de disques durs, de clés USB, de cartes mémoire et d'autres supports de stockage
+                <span className="font-semibold">Récupération de données :</span> Récupération de données perdues ou corrompues à partir de disques durs, de clés USB, de cartes mémoire et d&apos;autres supports de stockage
             </p>
             <p className="text-base text-[#075985] text-sm">
                 <span className="font-semibold">Sauvegarde des données :</span>Configuration de solutions de sauvegarde automatique pour éviter la perte de données en cas de panne ou de dommages matériels.
@@ -43,10 +43,10 @@ const ProjectDescriptions = {
     Assemblage: () => (
         <div className="space-y-4 text-sm">
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Assemblage de l'ordinateur :</span>Assembler physiquement les composants pour construire l'ordinateur selon les spécifications du client, en veillant à ce que tous les composants soient correctement installés et connectés.
+                <span className="font-semibold">Assemblage de l&apos;ordinateur :</span>Assembler physiquement les composants pour construire l&apos;ordinateur selon les spécifications du client, en veillant à ce que tous les composants soient correctement installés et connectés.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Test de stabilité :</span>Effectuer des tests de stabilité pour s'assurer que l'ordinateur fonctionne correctement et qu'il n'y a pas de problèmes matériels ou logiciels.
+                <span className="font-semibold">Test de stabilité :</span>Effectuer des tests de stabilité pour s&apos;assurer que l&apos;ordinateur fonctionne correctement et qu&apos;il n&apos;y a pas de problèmes matériels ou logiciels.
             </p>
         </div>
     ),
@@ -56,7 +56,7 @@ const ProjectDescriptions = {
                 <span className="font-semibold">Sensibilisation à la sécurité : </span> Formation aux utilisateurs sur les meilleures pratiques en matière de sécurité informatique, y compris la sensibilisation aux menaces, la gestion des mots de passe et la navigation sécurisée sur Internet.
             </p>
             <p className="text-base text-[#075985] text-sm">
-                <span className="font-semibold">Formation et assistance :</span> Fournir une formation de base sur l'utilisation de l'ordinateur et offrir une assistance supplémentaire et personnalisée en cas de besoin.
+                <span className="font-semibold">Formation et assistance :</span> Fournir une formation de base sur l&apos;utilisation de l&apos;ordinateur et offrir une assistance supplémentaire et personnalisée en cas de besoin.
             </p>
             <p className="text-base text-[#075985] text-sm">
                 <span className="font-semibold">Conseils et consultation :</span> Fournir des conseils personnalisés sur le choix des composants informatiques en fonction des besoins.

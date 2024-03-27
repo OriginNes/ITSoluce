@@ -55,7 +55,7 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#075985] mb-4 max-w-md">
           {" "}
-          Contactez-nous dès aujourd'hui et bénéficiez de notre offre de services professionnels et fiables de dépannage informatique à domicile à Saint-Martin-de-Crau et ses environs.
+          Contactez-nous dès aujourd&apos;hui et bénéficiez de notre offre de services professionnels et fiables de dépannage informatique à domicile à Saint-Martin-de-Crau et ses environs.
         </p>
         <h5 className="text-xl font-bold text-primary-500 my-2">
           Nous suivre
