@@ -14,7 +14,7 @@ export async function POST(req, res) {
       react: (
         <>
           <h1>{subject}</h1>
-          <p>Nouveau message via le site it-soluce.com de {email}</p>
+          <p>Nouveau message via le site it-soluce.com de {email}.</p>
           <p>{message}</p>
         </>
       ),
