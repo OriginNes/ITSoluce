@@ -38,17 +38,17 @@ const AboutSection = () => {
 
     return (
         <section className="text-white" id="about">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-24 xl:px-16">
                 <div
                     className="rounded-full bg-[#e0d9e0] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative border-dark">
                     <Image
                         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        src="/images/openspace.png" width={250} height={250}/>
+                        src="/images/computertest.png" width={350} height={350}/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">A propos</h2>
                     <p className="text-base lg:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptuous.
+                        IT Soluce, fondée en 2024 par Emmanuel TOUSSAINT jeune entrepreneur dynamique, est une entreprise de dépannage et de maintenance informatique à domicile. Située aux portes des Alpilles, IT Soluce se trouve sur la commune de Saint-Martin-de-Crau dans les Bouches-du-Rhône. Nous proposons des solutions informatiques rapides et fiables pour répondre aux besoins des particuliers et des petites entreprises de la région.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
