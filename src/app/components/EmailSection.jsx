@@ -51,6 +51,13 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-primary-500 my-2">
+          Des questions ?
+        </h5>
+        <p className="text-[#075985] mb-4 max-w-md">
+          {" "}
+          Contactez-nous dès aujourd'hui et bénéficiez de notre offre de services professionnels et fiables de dépannage informatique à domicile à Saint-Martin-de-Crau et ses environs.
+        </p>
+        <h5 className="text-xl font-bold text-primary-500 my-2">
           Nous suivre
         </h5>
         <p className="text-[#075985] mb-4 max-w-md">
@@ -85,7 +92,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#e0d9e0] border border-[#e0d9e0] placeholder-[#9CA2A9] text-black text-sm rounded-lg block w-full p-2.5"
-                placeholder="itsoluce@google.com"
+                placeholder="itsoluce@it-soluce.com"
               />
             </div>
             <div className="mb-6">

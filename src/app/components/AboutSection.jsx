@@ -9,18 +9,16 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className="list-disc pl-2 text-[#075985]">
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-            </ul>
-        ),
-    },
-    {
-        title: "Certifications",
-        id: "certifications",
-        content: (
-            <ul className="list-disc pl-2 text-[#075985]">
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
+                <li>Paramétrage switch Aruba</li>
+                <li>Gestion VLAN/AirWave/Ticket GLPI/Freshdesk</li>
+                <li>Administration Office 365 / Pack Office</li>
+                <li>Création et gestion des utilisateurs sur le Pabx</li>
+                <li>Configuration AD, DHCP, DNS microsoft server 2012</li>
+                <li>Maitrise systèmes d’exploitation Windows, linux (bases)</li>
+                <li>Maîtrise logiciel Infolog</li>
+                <li>Remise en état d’un équipement informatique</li>
+                <li>Langage SQL, Windows CE (gun,matériel embarqué)</li>
+                <li>Imprimante Zébra</li>
             </ul>
         ),
     },
@@ -57,13 +55,6 @@ const AboutSection = () => {
                         >
                             {" "}
                             Compétence{" "}
-                        </TabButton>
-                        <TabButton
-                            selectTab={() => handleTabChange("certifications")}
-                            active={tab === "certifications"}
-                        >
-                            {" "}
-                            Formations{" "}
                         </TabButton>
                     </div>
                     <div className="mt-8">
