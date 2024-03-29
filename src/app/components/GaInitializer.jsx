@@ -6,7 +6,7 @@ import ReactGA from 'react-ga4';
 const GaInitializer = () => {
 
     useEffect(() => {
-        ReactGA.initialize('GTM-M544XBK3'); // Remplacez par votre ID de suivi GA4
+        ReactGA.initialize('G-B77DBFZ7JY'); // Remplacez par votre ID de suivi GA4
         ReactGA.send('pageview'); // Ou utilisez ReactGA.pageview(window.location.pathname) pour Universal Analytics
     }, []);
 
