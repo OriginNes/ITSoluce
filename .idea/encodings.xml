@@ -10,8 +10,9 @@
     <file url="file://$PROJECT_DIR$/src/app/components/ProjectDescriptions.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/components/ProjectsSection.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/components/descriptionProject/Maintenance.jsx" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/app/components/descriptionProject/Maintenance.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/globals.css" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/app/layout.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/lib/ga-init.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/page.js" charset="ISO-8859-1" />
   </component>
 </project>
