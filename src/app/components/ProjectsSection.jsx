@@ -55,11 +55,11 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-primary-500  mt-4 mb-8 md:mb-12">
-        Nos services
-      </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-10 py-6">
+      <section id="projects">
+        <h2 className="text-center text-2xl md:text-4xl font-bold text-primary-500 mt-4 mb-4 md:mb-12">
+          Nos services
+        </h2>
+        <div className="text-white flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-10 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="Maintenance"
@@ -82,24 +82,23 @@ const ProjectsSection = () => {
         />
 
       </div>
-        <div ref={ref} className="text-white flex justify-center items-center">
-            {filteredProjects.map((project, index) => (
-                <motion className="w-1/2"
-                    key={index}
-                    variants={cardVariants}
-                    initial="initial"
-                    animate={isInView ? "animate" : "initial"}
-                    transition={{ duration: 0.3, delay: index * 0.4 }}
-                >
-                    <ProjectCard
-                        key={project.id}
-                        title={project.title}
-                        imgUrl={project.image}
-                        descriptionComponent={project.description}
-                    />
-                </motion>
-            ))}
-        </div>
+          <div ref={ref} className="text-white flex flex-wrap justify-center items-center">
+              {filteredProjects.map((project, index) => (
+                  <motion.div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2"
+                              key={index}
+                              variants={cardVariants}
+                              initial="initial"
+                              animate={isInView ? "animate" : "initial"}
+                              transition={{ duration: 0.3, delay: index * 0.1 }}>
+                      <ProjectCard
+                          key={project.id}
+                          title={project.title}
+                          imgUrl={project.image}
+                          descriptionComponent={project.description}
+                      />
+                  </motion.div>
+              ))}
+          </div>
     </section>
   );
 };
