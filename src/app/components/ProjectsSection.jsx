@@ -84,7 +84,7 @@ const ProjectsSection = () => {
       </div>
           <div ref={ref} className="text-white flex flex-wrap justify-center items-center">
               {filteredProjects.map((project, index) => (
-                  <motion.div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2"
+                  <motion.div className="w-1/2"
                               key={index}
                               variants={cardVariants}
                               initial="initial"
