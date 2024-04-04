@@ -3,27 +3,6 @@ import React, {useTransition, useState} from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
-const TAB_DATA = [
-    {
-        title: "Skills",
-        id: "skills",
-        content: (
-            <ul className="list-disc pl-2 text-[#075985]">
-                <li>Paramétrage switch Aruba</li>
-                <li>Gestion VLAN/AirWave/Ticket GLPI/Freshdesk</li>
-                <li>Administration Office 365 / Pack Office</li>
-                <li>Création et gestion des utilisateurs sur le Pabx</li>
-                <li>Configuration AD, DHCP, DNS microsoft server 2012</li>
-                <li>Maitrise systèmes d’exploitation Windows, linux (bases)</li>
-                <li>Maîtrise logiciel Infolog</li>
-                <li>Remise en état d’un équipement informatique</li>
-                <li>Langage SQL, Windows CE (gun,matériel embarqué)</li>
-                <li>Imprimante Zébra</li>
-            </ul>
-        ),
-    },
-];
-
 const AboutSection = () => {
     const [tab, setTab] = useState("skills");
     const [isPending, startTransition] = useTransition();
@@ -36,7 +15,7 @@ const AboutSection = () => {
 
     return (
         <section className="text-white" id="about">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-28 xl:px-16">
+            <div className="md:grid md:grid-cols-2 gap-4 items-center py-2 px-4 xl:gap-16 lg:py-36 sm:py-16">
                 <div
                     className="rounded-full bg-[#e0d9e0] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative border-dark">
                     <Image
@@ -48,18 +27,6 @@ const AboutSection = () => {
                     <p className="text-[#075985] lg:text-lg ">
                         IT Soluce, fondée en 2024 par Emmanuel TOUSSAINT jeune entrepreneur dynamique, est une entreprise de dépannage et de maintenance informatique à domicile. Située aux portes des Alpilles, IT Soluce se trouve sur la commune de Saint-Martin-de-Crau dans les Bouches-du-Rhône. Nous proposons des solutions informatiques rapides et fiables pour répondre aux besoins des particuliers et des petites entreprises de la région.
                     </p>
-                    <div className="flex flex-row justify-start mt-8">
-                        <TabButton
-                            selectTab={() => handleTabChange("skills")}
-                            active={tab === "skills"}
-                        >
-                            {" "}
-                            Compétence{" "}
-                        </TabButton>
-                    </div>
-                    <div className="mt-8">
-                        {TAB_DATA.find((t) => t.id === tab).content}
-                    </div>
                 </div>
             </div>
         </section>
